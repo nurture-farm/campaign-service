@@ -1,0 +1,62 @@
+{
+  "host": "127.0.0.1",
+  "port": 3306,
+  "database_name": "campaign_service",
+  "worker_config": {
+      "namespace": "default",
+      "temporal_host_port": "localhost:7233",
+      "taskqueue" : "CMPSWorker"
+    },
+  "max_open_connections": 25,
+  "max_idle_connections": 3,
+  "max_connection_lifetime_seconds": 300,
+  "aws_access_key": "",
+  "aws_secret_key": "",
+  "grpc_end_point": "localhost:8020",
+  "kafka": {
+    "bootstrap.servers": "localhost:9092",
+    "acks": "-1",
+    "compression.type": "none",
+    "max.in.flight.requests.per.connection": "10",
+    "batch.size": "16384",
+    "linger.ms":  "5",
+    "key.serializer": "org.apache.kafka.common.serialization.ByteArraySerializer",
+    "value.serializer": "org.apache.kafka.common.serialization.ByteArraySerializer"
+  },
+  "communication.event.topics": {
+    "whatsapp.low.priority": "low_priority_whatsapp_communication_events",
+    "sms.low.priority": "low_priority_sms_communication_events",
+    "pn.low.priority": "low_priority_pn_communication_events",
+    "email.low.priority": "low_priority_email_communication_events",
+    "default": "communication_events"
+  },
+  "athena_databases": {
+    "db_name": ""
+  },
+  "user_channel_attribute_queries": {
+    "athena_db_queries": {
+      "sms_query": "",
+      "app_notification_query": "",
+      "whatsapp_query": "",
+      "email_query": ""
+    },
+    "user_list_queries": {
+      "sms_query": "",
+      "app_notification_query": "",
+      "whatsapp_query": "",
+      "email_query": ""
+    }
+  },
+  "event_portal_grpc_end_point": "internal-a85f3a2f550f84f578459537c8ae3304-113299092.ap-south-1.elb.amazonaws.com:80",
+  "communication_engine_grpc_end_point": ":8010",
+  "events_database_name": "event_portal",
+  "s3_bucket_name": {
+    "control_group": "afs-dev-client/control_group/"
+  },
+  "events_table_name": "user_windowed_event_data",
+  "flink_windowing_time": 600000,
+  "grafana_api_key": "eyJrIjoieFd4QkQ4ZnNlcDRPR2dGb0NaYVNtVllLa2tHRG9vZWMiLCJuIjoiZWRpdG9yIiwiaWQiOjF9",
+  "grafana_host": "http://12.0.78.133:3000",
+  "grafana_rules_directory": "Platform"
+}
+

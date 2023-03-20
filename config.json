@@ -1,0 +1,40 @@
+{
+  "server": {
+    "port": 7800,
+    "api_hook": "farm.nurture.farm.service.BackendControllerImpl",
+    "startup_hook": "farm.nurture.farm.service.StartupHookImpl"
+  },
+
+  "prometheus" : {
+    "enabled": false,
+    "port": 7805
+  },
+
+  "temporal_worker": {
+    "enabled": true,
+    "namespace": "default",
+    "address": "localhost:7233",
+    "task_queue": "CMPSWorker"
+  },
+
+  "proto": {
+    "proto_generate_path": "proto",
+    "java_generate_path": "zerotouch/java/src/main",
+    "java_override_path": "core/java/src/main",
+    "graphql_generate_path": "graphql/src/main",
+    "go_generate_path": "zerotouch/golang",
+    "go_override_path": "core/golang",
+    "service_name": "CampaignService",
+    "namespace": "platform",
+    "proto_package": "farm.nurture.core.contracts.CampaignService",
+    "java_package": "farm.nurture.farm.service",
+    "go_package": "CampaignService",
+    "code_url": "code.nurture.farm",
+    "graphql_uri": "/core/sample_service"
+  },
+
+  "contract": {
+    "contract_path": "/Users/kishannigam/go/src/github.com/nurture-farm/Contracts",
+    "contract_tag": "v1.2.5"
+  }
+}
