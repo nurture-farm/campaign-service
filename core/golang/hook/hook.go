@@ -33,8 +33,8 @@
 package hook
 
 import (
-	"code.nurture.farm/platform/CampaignService/core/golang/cache"
-	query "code.nurture.farm/platform/CampaignService/core/golang/database"
+	"github.com/nurture-farm/campaign-service/core/golang/cache"
+	query "github.com/nurture-farm/campaign-service/core/golang/database"
 	"context"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"

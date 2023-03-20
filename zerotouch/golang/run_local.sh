@@ -2,7 +2,6 @@
 
 echo "Make sure current directory is code's root folder(main.go in the root folder)"
 
-export GOPRIVATE=code.nurture.farm
 go mod tidy
 go mod vendor
 echo "Downloaded dependencies for go modules"

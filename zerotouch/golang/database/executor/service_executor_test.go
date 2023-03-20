@@ -8,8 +8,8 @@ package executor_test
 //	"testing"
 //
 //	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
-//	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/executor"
-//	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/mappers"
+//	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/executor"
+//	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/mappers"
 //	"github.com/DATA-DOG/go-sqlmock"
 //	entsql "github.com/facebook/ent/dialect/sql"
 //	"github.com/stretchr/testify/assert"

@@ -35,7 +35,7 @@ package hook
 import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
 	common "github.com/nurture-farm/Contracts/Common/Gen/GoCommon"
-	"code.nurture.farm/platform/CampaignService/core/golang/hook/aws"
+	"github.com/nurture-farm/campaign-service/core/golang/hook/aws"
 	"context"
 	"github.com/spf13/cast"
 	"go.uber.org/zap"

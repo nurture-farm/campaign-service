@@ -34,7 +34,7 @@ package hook
 
 import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/mappers"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/mappers"
 	"encoding/binary"
 	"encoding/json"
 	"errors"

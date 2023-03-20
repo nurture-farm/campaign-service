@@ -33,7 +33,7 @@
 package aws
 
 import (
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/metrics"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/metrics"
 	"context"
 	"fmt"
 	"github.com/aws/aws-sdk-go/aws"

@@ -3,9 +3,9 @@ package executor
 import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
 	common "github.com/nurture-farm/Contracts/Common/Gen/GoCommon"
-	"code.nurture.farm/platform/CampaignService/core/golang/database"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/mappers"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/models"
+	"github.com/nurture-farm/campaign-service/core/golang/database"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/mappers"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/models"
 	"context"
 	"database/sql"
 	"github.com/facebook/ent/dialect"

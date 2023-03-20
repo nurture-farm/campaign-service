@@ -4,7 +4,7 @@ import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
 	Common "github.com/nurture-farm/Contracts/Common/Gen/GoCommon"
 	ggw "github.com/nurture-farm/Contracts/Workflows/GeneralGoWorkflows/Gen/GoGeneralGoWorkflows"
-	"code.nurture.farm/platform/CampaignService/core/golang/hook"
+	"github.com/nurture-farm/campaign-service/core/golang/hook"
 	"context"
 	"fmt"
 	ptypes "github.com/golang/protobuf/ptypes"

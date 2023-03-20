@@ -1,7 +1,7 @@
 package executor
 
 import (
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database"
 	"context"
 	"errors"
 	"fmt"

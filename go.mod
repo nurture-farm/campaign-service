@@ -1,4 +1,4 @@
-module code.nurture.farm/platform/CampaignService
+module github.com/nurture-farm/campaign-service
 
 go 1.14
 

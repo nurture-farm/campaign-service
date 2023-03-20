@@ -35,8 +35,8 @@ package hook
 import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
 	common "github.com/nurture-farm/Contracts/Common/Gen/GoCommon"
-	query "code.nurture.farm/platform/CampaignService/core/golang/database"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/executor"
+	query "github.com/nurture-farm/campaign-service/core/golang/database"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/executor"
 	"context"
 	entsql "github.com/facebook/ent/dialect/sql"
 	"github.com/spf13/cast"

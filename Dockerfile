@@ -4,7 +4,6 @@ COPY id_rsa /root/.ssh/
 COPY known_hosts /root/.ssh/
 COPY gitconfig /root/.gitconfig
 COPY config /root/.ssh/
-RUN export GOPRIVATE=code.nurture.farm
 
 
 RUN apk update && apk --no-cache add ca-certificates

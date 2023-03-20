@@ -2,7 +2,7 @@ package executor
 
 import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/models"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/models"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

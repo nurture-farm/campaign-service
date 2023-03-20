@@ -3,8 +3,8 @@ package setup
 import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
 	common "github.com/nurture-farm/Contracts/Common/Gen/GoCommon"
-	"code.nurture.farm/platform/CampaignService/core/golang/hook"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/service"
+	"github.com/nurture-farm/campaign-service/core/golang/hook"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/service"
 	"context"
 	"github.com/spf13/cast"
 	"time"

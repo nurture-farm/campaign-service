@@ -2,8 +2,8 @@ package setup
 
 import (
 	fs "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/service"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/service"
 	"context"
 	"github.com/spf13/viper"
 	"go.temporal.io/sdk/client"

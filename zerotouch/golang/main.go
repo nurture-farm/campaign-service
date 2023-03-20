@@ -2,9 +2,9 @@ package main
 
 import (
 	proto "github.com/nurture-farm/Contracts/CampaignService/Gen/GoCampaignService"
-	"code.nurture.farm/platform/CampaignService/core/golang/hook"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/setup"
+	"github.com/nurture-farm/campaign-service/core/golang/hook"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/database"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/setup"
 	"flag"
 	"fmt"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"

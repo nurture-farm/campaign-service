@@ -35,7 +35,7 @@ package hook
 import (
 	Common "github.com/nurture-farm/Contracts/Common/Gen/GoCommon"
 	CommunicationEngine "github.com/nurture-farm/Contracts/CommunicationEngine/Gen/GoCommunicationEngine"
-	"code.nurture.farm/platform/CampaignService/zerotouch/golang/metrics"
+	"github.com/nurture-farm/campaign-service/zerotouch/golang/metrics"
 	"context"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"

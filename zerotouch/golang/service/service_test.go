@@ -8,10 +8,10 @@ package service_test
 //	"testing"
 //	"errors"
 //	"github.com/prometheus/client_golang/prometheus"
-//	"code.nurture.farm/platform/CampaignService/core/golang/hook"
-//	"code.nurture.farm/platform/CampaignService/zerotouch/golang/database/executor"
-//	"code.nurture.farm/platform/CampaignService/zerotouch/golang/service"
-//	"code.nurture.farm/platform/CampaignService/zerotouch/golang/metrics"
+//	"github.com/nurture-farm/campaign-service/core/golang/hook"
+//	"github.com/nurture-farm/campaign-service/zerotouch/golang/database/executor"
+//	"github.com/nurture-farm/campaign-service/zerotouch/golang/service"
+//	"github.com/nurture-farm/campaign-service/zerotouch/golang/metrics"
 //)
 //
 //type ExecutorMock struct {
