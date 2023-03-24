@@ -47,7 +47,7 @@
       "email_query": ""
     }
   },
-  "event_portal_grpc_end_point": "internal-a85f3a2f550f84f578459537c8ae3304-113299092.ap-south-1.elb.amazonaws.com:80",
+  "event_portal_grpc_end_point": "localhost:8085",
   "communication_engine_grpc_end_point": ":8010",
   "events_database_name": "event_portal",
   "s3_bucket_name": {
